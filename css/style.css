@@ -206,7 +206,8 @@ h1{
 }
 
 .texto-sobre-mi h2{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display';
+    font-weight: bold;
     font-size: 2rem;
     padding: 40px 0;
     text-align: left;  
@@ -219,6 +220,30 @@ h1{
 /* Preguntas frecuentes */
 
 .preguntas-frecuentes{
+    margin: 3rem;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #282828;
+    background-color: #aff0ff;
+}
+
+.accordion{
+    --bs-accordion-btn-focus-border-color: #861657;
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0rem rgba(13, 109, 253, 0);
+}
+
+.accordion-button{
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.accordion-body{
+    font-family: 'Montserrat'; 
+}
+
+/* .preguntas-frecuentes{
     padding-top: 150px;
     display: flex;
     flex-direction: column;
@@ -257,7 +282,7 @@ h1{
 .preguntas-boton a{
     text-decoration: none;
     color: #ffffff;
-}
+} */
 
 
 /*Contacto*/
@@ -296,12 +321,10 @@ form textarea{
 .footer {  
     background-color: #282828;
     color: #ffffff;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     margin-top: 100px;
-    padding: 20px;
-    flex-wrap: wrap;
+    padding: 10px 10px;
+
 }
 
 footer p{
@@ -310,9 +333,26 @@ footer p{
     font-weight: 300;
 }
 footer .redes-sociales{
-    padding: 0 20px;
+    padding: 20px 20px;
 }
-.footer img{
-    width: 90px;
+.footer-redes img{
+    width: 5rem;
+}
+
+.texto-copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-footer img{
+    width: 5rem;
 }
 
