@@ -137,18 +137,14 @@ h1{
     flex-wrap: wrap;
 }
 
-h2{
+.cards-title{
     text-align: center;
     margin:10px;
+    padding-bottom: 15px !important;
+    border-bottom: 2px solid #282828;
 }
 
-hr{
-    width:50%;
-    height: 2px;
-    border: 0;
-    background: #282828;
-    margin: auto;
-}
+
 
 .cards{
     background-color: #aff0ff;
