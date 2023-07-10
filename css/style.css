@@ -148,6 +148,24 @@ h1{
     margin:10px;
  }
 
+.boton-cards{
+    background-color: #ffffff00;
+    border-radius: 20px;
+    border: 2px solid #861657;
+    width: auto;
+    color: #861657;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 10px;
+ }
+
+ .boton-cards a{
+    text-decoration: none;
+    color: #861657;
+    font-size: 1rem;
+    text-align: left;
+}
+
   /* Sobre mí */
 
 .seccion-sobre-mi{
@@ -175,6 +193,33 @@ h1{
     text-align: left;  
 }
 .texto-sobre-mi p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+  /* Productos*/
+
+.seccion-productos{
+    margin-top: 100px;
+}
+
+
+.texto-productos{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.texto-productos h2{
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 40px 0;
+    text-align: left;  
+}
+.texto-productos p{
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
 }
@@ -304,3 +349,28 @@ footer .redes-sociales{
     width: 5rem;
 }
 
+@media (max-width: 768px) {
+    /*Tamaño mediano*/
+    .hero-img img {
+        width: 200px;
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+    .home img {
+        width: 400px;
+        padding: 50px;
+    }
+}
+@media (max-width: 420px) {
+    /*Tamaño chico*/
+    .hero-img img {
+        width: 100px;
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+    .home img {
+        width: 300px;
+        padding: 50px;
+    }
+}    
+    
