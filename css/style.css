@@ -10,15 +10,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
 
 /* Menú de navegación */
-.header { 
-    background-image: linear-gradient(to right, #fbe5e2, #EEC0C6);
-    color: #282828;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+.nav-link{
+    font-family: 'Montserrat' !important;
+    color: #ffffff;
 }
-.header img{
+.dropdown-menu{
+    --bs-dropdown-link-active-color: #282828;
+    --bs-dropdown-link-active-bg: #afafaf;
+    --bs-dropdown-link-hover-color: #fbe5e2;
+}
+.navbar-dark, .navbar[data-bs-theme=dark] {
+    --bs-navbar-hover-color: #fbe5e2;
+    --bs-navbar-active-color: #fbe5e2;
+
+}
+/*.header .navbar{ 
+    background-image: linear-gradient(to right, #fbe5e2, #EEC0C6);
+}
+
+.nav-link{
+    color: #282828;
+    font-family: 'Montserrat' !important;
+}
+/*.header img{
   width: 100px;
 }
 .header ul{
@@ -47,7 +61,7 @@
     color: #282828;
     display: inline-block;
     padding: 20px;
-}
+}*/
 
 /* Body */
 body{
@@ -85,12 +99,13 @@ body{
 
 .hero-content{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
 h1{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display';
+    font-weight: bold;
     font-size: 2.5rem;
     text-align: left;
     padding-top: 100px;
@@ -133,7 +148,7 @@ h1{
 .productos-cards{
     padding-top: 100px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -153,10 +168,12 @@ h1{
     padding: 40px 20px;
     text-align: center;
     margin: auto;
+    margin: 20px;
 }
 .cards h2{
     padding: 10px 0;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display';
+    font-weight: bold;
 }
 .cards p{
     line-height: 1.5;
@@ -280,7 +297,7 @@ form textarea{
     background-color: #282828;
     color: #ffffff;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-top: 100px;
     padding: 20px;
@@ -289,7 +306,6 @@ form textarea{
 
 footer p{
     color: #ffffff;
-    margin: 0 300px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
