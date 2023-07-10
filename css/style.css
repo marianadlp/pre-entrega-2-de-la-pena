@@ -24,44 +24,6 @@
     --bs-navbar-active-color: #fbe5e2;
 
 }
-/*.header .navbar{ 
-    background-image: linear-gradient(to right, #fbe5e2, #EEC0C6);
-}
-
-.nav-link{
-    color: #282828;
-    font-family: 'Montserrat' !important;
-}
-/*.header img{
-  width: 100px;
-}
-.header ul{
-    display: flex;
-    list-style-type: none;
-    padding: 10px;
-    flex-wrap: wrap;
-}
-.header ul li{
-    padding: 10px;
-}
-.header ul li a{
-  color:#282828;
-  text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
-}
-.menu .item{
-    display: inline-block;
-    position:relative;
-    font-size: 1rem;
-    text-align: center;
-}
-
-.menu .item a{
-    text-decoration: none;
-    color: #282828;
-    display: inline-block;
-    padding: 20px;
-}*/
 
 /* Body */
 body{
@@ -243,68 +205,31 @@ h1{
     font-family: 'Montserrat'; 
 }
 
-/* .preguntas-frecuentes{
-    padding-top: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.preguntas-texto{
-    margin: 20px 0px;
-    background-color: #aff0ff;
-    width: 1100px;
-    border-radius: 20px;
-}
-
-.preguntas-texto p{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-    text-align: center;
-}
-
-.preguntas{
-    display: flex;
-    align-items: center;
-}
-
-.preguntas-boton{
-    margin: 0px 20px;
-    width: 100px;
-    height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #861657;
-    border-radius: 20px;
-}
-
-.preguntas-boton a{
-    text-decoration: none;
-    color: #ffffff;
-} */
-
 
 /*Contacto*/
+
 .seccion-form{
     padding-left: 150px;
 }
 form {
-    line-height: 1.5;
+    line-height: 1;
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 600;
     margin: auto;
 }
 input{
-    line-height: 1.5;
+    line-height: 1;
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
 }
+form label{
+    padding-bottom: 10px;
+}
 form input{
-    width: 500px;
-    border-radius: 30px;
-    padding: 20px;
+    width: 600px;
+    border-radius: 10px;
+    padding: 10px;
 }
 form textarea{
     width: 600px;
@@ -313,9 +238,32 @@ form textarea{
 }
 .checkbox{
     text-align: left;
-    font-weight: 300;
+    font-weight: 600;
+    width: auto;
 }
 
+form .boton-principal{
+    width: auto;
+    margin: 20px 0px;
+}
+
+.boton-secundario{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid #861657;
+    width: auto;
+    margin: 20px 0px;
+    color: #861657;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.boton-secundario a{
+    text-decoration: none;
+    color: #861657;
+    font-size: 1rem;
+    text-align: left;
+}
 
  /* Footer */
 .footer {  
